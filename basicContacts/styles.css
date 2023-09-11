@@ -1,0 +1,52 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+
+.profile-contacts {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.profile-contacts form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.profile-contacts label {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.profile-contacts input {
+    padding: 10px 10px;
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.219);
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.profile-contacts textarea {
+    resize: none;
+    padding: 10px 10px;
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.219);
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.profile-contacts button {
+    width: auto;
+    margin: 0 auto;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
