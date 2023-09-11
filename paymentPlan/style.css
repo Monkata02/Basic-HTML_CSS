@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.background-container {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.payment-plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.payment-plan {
+    display: inline-block;
+    position: relative;
+    width: 340px;
+    height: 510px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 15px;
+    padding: 20px 40px;
+    font-size: 1em;
+}
+
+.payment-plan h2 {
+    font-size: 1.3em;
+}
+
+#basic b {
+    font-size: 58px;
+}
+
+#standard b {
+    font-size: 58px;
+}
+
+#premium b {
+    font-size: 58px;
+}
+
+#standard {
+    width: 350px;
+    height: 550px;
+}
+
+.subscribe-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+
+}
+
+.payment-plan p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.payment-plan span {
+    color: gray;
+    font-size: 13px;
+}
