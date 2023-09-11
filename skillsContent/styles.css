@@ -1,0 +1,56 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+
+.profile-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-content .coding-skills {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.profile-content .coding-skills p {
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+
+}
+
+.profile-content .coding-skills i {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.profile-content .coding-skills p:hover {
+    transform: scale(1.5);
+}
+
+
+.coding-skills p:nth-child(1) {
+    color: yellow;
+}
+
+
+.coding-skills p:nth-child(2) {
+    color: blue;
+}
+
+.coding-skills p:nth-child(3) {
+    color: rgb(255, 68, 0);
+}
+
+.coding-skills p:nth-child(4) {
+    color: rgb(34, 110, 252);
+}
