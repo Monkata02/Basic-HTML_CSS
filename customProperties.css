@@ -1,0 +1,7 @@
+:root {
+  --primary-color: #007bff;
+}
+
+.button {
+  background-color: var(--primary-color);
+}
